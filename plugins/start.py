@@ -10,8 +10,7 @@ async def start(client,message):
 	await message.reply_text(text =f"""
 	Hello {message.from_user.first_name }
 	__I am file renamer bot, Please sent any telegram 
-	**Document Or Video** and enter new filenameto rename it__
-	""",reply_to_message_id = message.message_id ,  
+	**Document Or Video** and enter new filenameto rename i
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("Support 🇮🇳" ,url=f"https://t.me/{SUPPORT_CH}") ], 
 	[InlineKeyboardButton("Subscribe 🧐", url=f"https://youtube.com/c/{YOUTUBE}") ]  ]))
